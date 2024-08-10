@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .boxshadow{
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px ;
+  }
+  .link{
+    @apply text-[#03e9f4] uppercase tracking-[4px] text-[16px] border-2 border-[#03e9f4] px-[22px] py-[7px] rounded
+  }
+}
+.link:hover{
+  @apply text-white bg-[#03e9f4] boxshadow
+
+}
