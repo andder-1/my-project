@@ -2,7 +2,7 @@ const App = () => {
   return (
     <>
     <div className="flex justify-center items-center h-screen">
-      <a className="link"href="">Hover</a>
+      <a className="link"href="">Hove</a>
       
     </div>
     </>
